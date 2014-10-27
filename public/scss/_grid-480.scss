@@ -1,0 +1,252 @@
+@media (max-width: 480px) {
+
+	.site-header {
+		position: relative;
+	}
+	.site-content {
+		padding-top: 0px;
+	}
+
+	.col-1-2,
+	.col-1-3,
+	.col-1-4,
+	.col-3-4,
+	.col-7-8 {
+		width: 100%;
+		padding: 20px 0px;
+	}
+	.big-one{
+		height: 200px;
+	}
+	#all-posts {
+		margin-right: 0px;
+	}
+	#all-posts .project .post-inner,
+	#all-posts .people .post-inner{
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top center;
+		overflow: hidden;
+	}
+	#all-posts .news .post-inner{
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+	#all-posts .people .post-meta-info h2.mobile{
+		display: none;
+	}
+	#all-posts .people .post-meta-info h2.person-name{
+		display: block;
+	}
+	.project .post-meta-info {
+		background-color: rgba(0,0,0,1.0);
+		padding: 20px 20px 20px;
+		height: 220px;
+		top: 45%;
+	}
+	#all-posts .people #social-area {
+		bottom: -2px;
+	}
+	#all-posts .project,
+	#all-posts .people,
+	#all-posts .news,
+	#all-posts .post,
+	.stamp-information,
+	.stamp-twitter {
+		width: 100%;
+		padding: 0px;
+	}
+	#all-posts .people p{
+	display: none;
+	}
+	.stamp-twitter {
+		width: 100%;
+	}
+	.solutions {
+		margin: 20px 0 0px;
+	}
+	.solutions .social {
+		width: 100%;
+	}
+	.image-whole {
+		margin: 0px 0 0px;
+	}
+	.col-left-text{
+		padding: 20px 0 0 0;
+	}
+	.col-left-text p,
+	.col-right-text p{
+	 margin: 0;
+	}
+	.solutions .col-1-4{
+		padding-bottom: 0px;
+	}
+	.image-whole{
+		margin-bottom: 20px;
+	}
+	.image-whole:last-child{
+		margin-bottom: 0px;
+	}
+	.col-video{
+		height: 150px;
+	}
+	.col-video p iframe {
+		width: 100%!important;
+		height: auto;
+	}
+	.col-video .wp-video:first-child {
+		width: 100%!important;
+		float: left;
+		padding-right: 0px;
+	}
+	.col-image{
+		width: 100%;
+		padding: 0px;
+		outline: 20px solid #fff;
+		outline-offset: 0;
+		height: auto;
+	}
+	.col-image img:nth-child(odd){
+		width: 100%;
+		float: none;
+		padding-right: 0px;
+		margin-bottom: 20px;
+	}
+	.col-image img:nth-child(even) {
+		width: 100%;
+		float: none;
+		padding-left: 0px;
+		margin-bottom: 20px;
+	}
+	.col-video .wp-video:first-child{
+		height: 130px !important;
+	}
+	.col-video .wp-video:last-child{
+		height: 130px !important;
+	}
+	.half-col-images{
+		padding:0;
+	}
+	#similar-projects article a{
+		opacity: 1;
+	}
+	.icon_Search, .icon_Filter {
+		display: none;
+	}
+	.entry-content .col-1-4{
+		padding: 0px;
+		width: 100%;
+	}
+	.roles-list .col-1-4{
+		padding: 20px 0;
+		width: 100%;
+	}
+	.no-tag {
+		float: left;
+		margin-top: -22px;
+		margin-left: 46px;
+		display: none;
+	}
+	.menu-main-menu-container{
+		display: none;
+	}
+	.main-navigation{
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.solutions .col-1-4{
+		width: 100%;
+	}
+	#similar-projects {
+		width: 100%;
+		margin: 20px 0 20px;
+		height: auto;
+	}
+	#similar-projects .col-1-4{
+		width: 100%;
+	}
+	#filters {
+		margin-top: -1px;
+		width: 280px;
+		left: 20px;
+	}
+	.mobile-toggle{
+		display: block;
+		margin: -24px 0 0 292px;
+	}
+	.mobile ul{
+		display: block;
+		text-align: center;
+		margin-left: 0px;
+		float: left;
+	}
+	.mobile ul li{
+		float: left;
+		position: relative;
+		padding: 10px 0;
+		display: inline-block;
+		width: auto;
+	}
+	.mobile ul li a{
+		padding: 10px 13px;
+		border: solid 1px #000 !important;
+		min-width: 74px;
+	}
+	.mobile ul li:nth-child(even) a{
+		border-right: 0px !important;
+		border-left: 0px !important;
+	}
+	#social-area {
+		text-align: left;
+	}
+	.find-images .col-1-2:nth-child(odd) {
+		padding-right: 0px;
+		width: 100%;
+	}
+	.find-images .col-1-2:nth-child(even) {
+		padding-left: 0px;
+		padding-right: 0;
+		width: 100%;
+	}
+	.single-project .social-addon {
+		height: 70px;
+		margin: 0 0 20px 0;
+	}
+	#tweet-slider .twitter_text h2{
+		font-size: 1.2em;
+	}
+	.entry-title {
+		font-size: 1.5em;
+	}
+	ul#client-list li {
+		padding: 20px 0;
+		width: 100%;
+	}
+	ul#client-list li:last-child, ul#client-list li:nth-child(4n) {
+		padding-right: 0px;
+	}
+	.big-one h1 {
+		padding: 20px 0% 20px 20px;
+	}
+	.stamp-information {
+		display: none;
+	}
+	.site-footer{
+		margin-top: 0px;
+	}
+	#footer-logo{
+		width: 70px !important;
+		float: left;
+	}
+	#footer-social{
+		float: right;
+		width: 201px;
+		padding: 0px;
+	}
+	#footer-social #social-area{
+		width: auto;
+	}
+
+}

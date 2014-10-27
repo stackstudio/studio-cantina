@@ -1,0 +1,63 @@
+@media (max-width: 1024px) {
+
+	.global-post{
+		/*width: 228px;*/
+		width: 23.05%;
+	}
+
+	#all-posts .project{
+		/*width: 475px;*/
+		width: 48%;
+		height: 350px;
+	}
+	#all-posts .news, #all-posts .people{
+		height: 350px;
+	}
+	.post-meta-info h2 {
+		font-size: 16px;
+	}
+
+	.solutions .col-1-4{
+		width: 33%;
+		margin-right: 0px;
+	}
+	.single-project .social-addon{
+		height: 83px;
+	}
+	#similar-projects .col-1-4{
+		width: 230px;
+	}
+	#similar-projects .contact-area {
+		width: 33%;
+	}
+	.half-col-text {
+		padding: 0 20px;	
+	}
+	.entry-content .col-1-4{
+		width: 25%;
+	}
+	.col-image{
+		height: 264px;
+		overflow: hidden;
+		padding: 0px;
+		outline: 20px solid #fff;
+		outline-offset: 0;
+		width: 100% !important;
+	}
+	.stamp-twitter {
+		margin: 0 20px 20px 0;
+		height: 350px;
+	}
+	.entry-title {
+		font-size: 2.6em;
+		padding-right: 17%;
+		line-height: 1.1em;
+		margin-top: 0.8em;
+	}
+	#footer-logo{
+		width: 20%;
+		padding: 0px;
+	}
+
+
+}
