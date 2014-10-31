@@ -53,7 +53,7 @@
 		initPiling: function() {
 
 			$('#pages').pagepiling({
-			    anchors: ['the-top','the-cantina', 'clientele', 'word-up', 'speak-up'],
+			    anchors: ['the-top','the-cantina', 'clientele', 'word-up', 'speak-up', 'terms-and-conditions'],
 			    sectionsColor: ['white','#000000', 'white', '#000000', 'white'],
 			    navigation: false,
 			    menu: '#the-anchors',

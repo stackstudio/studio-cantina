@@ -1406,6 +1406,37 @@ ul#client-list li img.desaturate {
   border: 2px solid #000;
 }
 
+#terms {
+  text-align: center;
+  overflow: auto;
+}
+
+#terms h4 {
+  font-weight: 600;
+}
+
+#terms h4 hr {
+  width: 142px;
+  border-top: solid 2px #000;
+  text-align: center;
+  margin: 9px auto;
+}
+
+#terms h4 a {
+  text-decoration: none;
+  padding: 5px 9px 8px 9px;
+  line-height: 3em;
+}
+
+#terms a:hover {
+  border: 2px solid #000;
+}
+
+#terms ol li {
+  text-align: justify;
+  padding: 20px 0;
+}
+
 /* ===========================================================
  * pagepiling.js 0.0.1 (Beta)
  *
