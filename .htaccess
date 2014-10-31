@@ -1,0 +1,10 @@
+# The htaccess file
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^{yoursite}.{extension} [NC]
+RewriteRule (.*) http://www.{yoursite}.{extension}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) /public/$1 [L]
+
+SetEnv APP_ENV production
