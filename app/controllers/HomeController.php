@@ -57,7 +57,7 @@ class HomeController extends BaseController {
 		  );
 
 		  $url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
-		  $getfield = '?screen_name=studiocantina&count=5&include_rts=false';
+		  $getfield = '?screen_name=studiocantina&count=1&include_rts=false';
 		  $requestMethod = 'GET';
 		  $twitter = new TwitterAPIExchange($settings);
 
