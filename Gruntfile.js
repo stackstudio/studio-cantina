@@ -8,7 +8,7 @@ module.exports = function(grunt) {
         // watch for changes and trigger sass, jshint, uglify and livereload
         watch: {
             sass: {
-                files: ['public/scss/*.{scss,sass}'],
+                files: ['public/scss/*.{scss,sass}','public/scss/plugins/*.{scss,sass}'],
                 tasks: ['sass', 'autoprefixer', 'cssmin']
             },
             js: {
@@ -46,18 +46,16 @@ module.exports = function(grunt) {
                 dest: 'public/css/build'
             },
         },
-
-        // css minify
         cssmin: {
-            options: {
-                keepSpecialComments: 1
-            },
-            minify: {
-                expand: true,
-                cwd: 'public/css/build',
-                src: ['*.css', '!*.min.css'],
-                ext: '.css'
-            }
+          myTarget: {
+            files: [{
+              expand: true,
+              cwd: 'public/css/build',
+              src: ['*.css', '!*.min.css'],
+              dest: 'public/css',
+              ext: '.min.css'
+            }]
+          }
         },
 
         // javascript linting with jshint
@@ -68,7 +66,7 @@ module.exports = function(grunt) {
             },
             all: [
                 'Gruntfile.js',
-                'assets/js/source/**/*.js'
+                'public/js/source/**/*.js'
             ]
         },
 

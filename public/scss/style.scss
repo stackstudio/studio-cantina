@@ -12,6 +12,7 @@ Version: 1.1
 @import "normalize";
 
 // Globals
+@import "general";
 @import "h5bp-global";
 @import "grid";
 
@@ -22,6 +23,11 @@ Version: 1.1
 
 // Menus, Page and Post styles
 @import "menus";
+
+@import "layout";
+
+// Plugin styles here
+@import "plugins/pilling.scss";
 
 // responsive
 @import "media-queries";

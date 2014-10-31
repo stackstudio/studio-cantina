@@ -1,1 +1,0 @@
-/Freelance/Current Projects/Studio Cantina/build/studio-cantina/app/views/snippet/mobile.blade.php

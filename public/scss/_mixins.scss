@@ -37,6 +37,12 @@
 	}
 }
 
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
 /*
  * Mixin for big bg images
  * @include bg-image(repeat,cover,position);
@@ -103,3 +109,244 @@
 			 url($font-url + '' + $font-name + '.svg#' + $font-name) format('svg');
 	}
 }
+
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+// Lets do some animtion here
+
+.animate {
+    -moz-animation-duration: 2.8s;
+    -webkit-animation-duration: 2.8s;
+    -o-animation-duration: 2.8s;
+    -ms-animation-duration: 2.8s;
+    animation-duration: 2.8s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+.logo-animate {
+    -moz-animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    -ms-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+.delay{
+	-moz-animation-delay: 1.3s;
+    -webkit-animation-delay: 1.3s;
+    -o-animation-delay: 1.3s;
+    -ms-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+
+.delay01{
+	-moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+.delay02{
+	-moz-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    -ms-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+.delay03{
+	-moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+.delay04{
+	-moz-animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+    -o-animation-delay: 2.5s;
+    -ms-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+.delay05{
+	-moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    -o-animation-delay: 3s;
+    -ms-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+.delay06{
+	-moz-animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
+    -o-animation-delay: 3.5s;
+    -ms-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+
+
+
+
+
+// For the purpose of headroom.js here
+
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-20%);
+    @include opacity(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    @include opacity(1);
+  }
+}
+
+@-moz-keyframes slideDown {
+  0% {
+    -moz-transform: translateY(-20%);
+    @include opacity(0);
+  }
+
+  100% {
+    -moz-transform: translateY(0);
+    @include opacity(1);
+  }
+}
+
+@-o-keyframes slideDown {
+  0% {
+    -o-transform: translateY(-20%);
+    @include opacity(0);
+  }
+
+  100% {
+    -o-transform: translateY(0);
+    @include opacity(1);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-20%);
+    @include opacity(0);
+  }
+
+  100% {
+    transform: translateY(0);
+    @include opacity(1);
+  }
+}
+
+.slideDown {
+  -webkit-animation-name: slideDown;
+  -moz-animation-name: slideDown;
+  -o-animation-name: slideDown;
+  animation-name: slideDown;
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-100%);
+  }
+}
+@-moz-keyframes slideUp {
+  0% {
+    -moz-transform: translateY(0);
+  }
+
+  100% {
+    -moz-transform: translateY(-100%);
+  }
+}
+@-o-keyframes slideUp {
+  0% {
+    -o-transform: translateY(0);
+  }
+
+  100% {
+    -o-transform: translateY(-100%);
+  }
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.slideUp {
+  -webkit-animation-name: slideUp;
+  -moz-animation-name: slideUp;
+  -o-animation-name: slideUp;
+  animation-name: slideUp;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    @include opacity(0);
+  }
+
+  100% {
+    @include opacity(1);
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    @include opacity(0);
+  }
+
+  100% {
+    @include opacity(1);
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    @include opacity(0);
+  }
+
+  100% {
+    @include opacity(1);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    @include opacity(0);
+  }
+
+  100% {
+    @include opacity(1);
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -o-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+

@@ -5,20 +5,20 @@
 	}
 }
 @include bp(tablet-l) {
-$pageWidth: 980px; 
+	$pageWidth: 980px; 
 	.container {
 		max-width: $pageWidth;
 	}
 
 }
 @include bp(tablet-p) {
-$pageWidth: 780px; 
+	$pageWidth: 780px; 
 	.container {
 		max-width: $pageWidth;
 	}
 }
 @include bp(phone) {
-$pageWidth: 480px; 
+	$pageWidth: 480px; 
 	.container {
 		max-width: $pageWidth;
 	}
