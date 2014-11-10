@@ -14,7 +14,7 @@
               </ul>
             </nav>
           </header>
-          <div class="circle black animate" id="clientele-section"><a href="#the-cantina">+</a></div>
+          <div class="circle black animate" id="clientele-section"><a href="#the-cantina"></a></div>
 	</section>
 	<section class="section" id="the-cantina">
 		<!-- <div class="triangle outline" id="cantina-section"><a href="#the-top"></a></div> -->
@@ -27,7 +27,7 @@ our methodology is based on strong work ethics, honesty and open communication â
 welcoming projects small or large from website or mobile app design and development, UX/UI development, branding or re-branding and printed.
 </p>
 		</article>
-		<div class="circle" id="clientele-section"><a href="#clientele">+</a></div>
+		<div class="circle" id="clientele-section"><a href="#clientele"></a></div>
 	</section>
 	<section class="section" id="clientele">
 		<!-- <div class="triangle outline" id="cantina-section"><a href="#the-top"></a></div> -->
@@ -44,17 +44,17 @@ welcoming projects small or large from website or mobile app design and developm
 				<p>
 					to manage the privacy of our clientele all portfolio and project samples are only available by request
 				</p>
-				<h2><a href="#">request portfolio</a></h2>
+				<h4><a href="#">request portfolio</a></h4>
 			</div>
 		</article>
-		<div class="circle black" id="clientele-section"><a href="#word-up">+</a></div>
+		<div class="circle black" id="clientele-section"><a href="#word-up"></a></div>
 	</section>
 	<section class="section" id="word-up">
 		<!-- <div class="triangle outline" id="cantina-section"><a href="#the-top"></a></div> -->
 		<article class="container">
 			<?php get_auth_tweet(); ?>
 		</article>
-		<div class="circle" id="clientele-section"><a href="#speak-up">+</a></div>
+		<div class="circle" id="clientele-section"><a href="#speak-up"></a></div>
 	</section>
 	<section class="section" id="speak-up">
 		<!-- <div class="triangle outline" id="cantina-section"><a href="#the-top"></a></div> -->
@@ -69,8 +69,8 @@ welcoming projects small or large from website or mobile app design and developm
 				</p>
 			</div>
 			<footer>
-				<h4 class="col-2-4"><a href="#terms-and-conditions">terms &amp; conditions</a></h4>
-				<h4 class="col-2-4">&copy;<?php echo date( "Y" ); ?> Studio Cantina Limited</h4>
+				<h5 class="col-2-4"><a href="#terms-and-conditions">terms &amp; conditions</a></h5>
+				<h5 class="col-2-4">&copy;<?php echo date( "Y" ); ?> Studio Cantina Limited</h5>
 			</footer>
 		</article>
 	</section>

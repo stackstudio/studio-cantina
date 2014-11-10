@@ -47,16 +47,16 @@
 #clientele ul{
 	margin: 0 0 60px 0;
 }
-#clientele h2{
+#clientele h4{
 	padding:0;
 	margin: 0;
 }
-#clientele h2 a{
+#clientele h4 a{
 	text-decoration: none;
-	padding: 5px 9px 8px 9px;
+	padding: 3px 7px 7px;
 	line-height: 3em;
 }
-#clientele h2 a:hover{
+#clientele h4 a:hover{
 	border: 2px solid #000;
 }
 .triangle{
@@ -164,7 +164,8 @@ ul#client-list li img.desaturate{
 #speak-up{
 	text-align: center;
 }
-#speak-up h4{
+#speak-up h4,
+#speak-up h5{
 	font-weight: 600;
 }
 #speak-up h4 hr{
@@ -174,12 +175,12 @@ ul#client-list li img.desaturate{
 	margin: 9px auto;
 }
 
-#speak-up h4 a{
+#speak-up h5 a{
 	text-decoration: none;
 	padding: 5px 9px 8px 9px;
 	line-height: 3em;
 }
-#speak-up h4 a:hover{
+#speak-up h5 a:hover{
 	border: 2px solid #000;
 }
 
