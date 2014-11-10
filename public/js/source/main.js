@@ -57,9 +57,9 @@
 			    sectionsColor: ['white','#000000', 'white', '#000000', 'white'],
 			    navigation: false,
 			    menu: '#the-anchors',
-			    normalScrollElements: '#terms, #the-cantina',
-		        normalScrollElementTouchThreshold: 2,
-		        touchSensitivity: 2,
+			    normalScrollElements: '#the-cantina',
+		        normalScrollElementTouchThreshold: 20,
+		        touchSensitivity: 0,
 			    afterLoad: function(anchorLink, index){
 		            //using anchorLink
 		            if(anchorLink == 'clientele'){
