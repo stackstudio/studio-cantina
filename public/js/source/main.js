@@ -58,8 +58,8 @@
 			    navigation: false,
 			    menu: '#the-anchors',
 			    normalScrollElements: '#terms, #the-cantina',
-		        normalScrollElementTouchThreshold: 0,
-		        touchSensitivity: 0,
+		        normalScrollElementTouchThreshold: 2,
+		        touchSensitivity: 2,
 			    afterLoad: function(anchorLink, index){
 		            //using anchorLink
 		            if(anchorLink == 'clientele'){
