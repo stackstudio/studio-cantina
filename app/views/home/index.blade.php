@@ -17,7 +17,7 @@
           <div class="circle black animate" id="clientele-section"><a href="#the-cantina"></a></div>
 	</section>
 	<section class="section" id="the-cantina">
-		<!-- <div class="triangle outline" id="cantina-section"><a href="#the-top"></a></div> -->
+		<div class="circle-up" id="cantina-section"><a href="#the-top"></a></div>
 		<article class="container">
 			<h4>the cantina<br><hr></h4>
 			<p>founded and named on a love for Italian Western’s produced in the mid-sixies, Studio Cantina provides art direction, design consultancy and project management services for both private and agency based clients.  
@@ -30,7 +30,7 @@ welcoming projects small or large from website or mobile app design and developm
 		<div class="circle" id="clientele-section"><a href="#clientele"></a></div>
 	</section>
 	<section class="section" id="clientele">
-		<!-- <div class="triangle outline" id="cantina-section"><a href="#the-top"></a></div> -->
+		<div class="circle-up black" id="cantina-section"><a href="#the-top"></a></div>
 		<article class="container">
 			<ul>
 				<li class="col-1-3 logo hidden logo-animate delay01 fadeIn">{{ HTML::image('/img/clientele_jc_logo.png', 'jimmy choo logo') }}</li>
@@ -50,14 +50,14 @@ welcoming projects small or large from website or mobile app design and developm
 		<div class="circle black" id="clientele-section"><a href="#word-up"></a></div>
 	</section>
 	<section class="section" id="word-up">
-		<!-- <div class="triangle outline" id="cantina-section"><a href="#the-top"></a></div> -->
+		<div class="circle-up" id="cantina-section"><a href="#the-top"></a></div>
 		<article class="container">
 			<?php get_auth_tweet(); ?>
 		</article>
 		<div class="circle" id="clientele-section"><a href="#speak-up"></a></div>
 	</section>
 	<section class="section" id="speak-up">
-		<!-- <div class="triangle outline" id="cantina-section"><a href="#the-top"></a></div> -->
+		<div class="circle-up black" id="cantina-section"><a href="#the-top"></a></div>
 		<article class="container">
 			<div class="animate delay fadeIn">
 				<h4>speak up<br><hr></h4>

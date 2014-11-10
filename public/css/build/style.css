@@ -1215,6 +1215,11 @@ textarea {
   text-decoration: none;
   color: #000;
   font-weight: 600;
+  padding: 5px 8px;
+}
+
+.navigation-main ul li a:hover {
+  border: solid 2px #000;
 }
 
 #the-cantina {
@@ -1291,6 +1296,31 @@ textarea {
   color: white;
 }
 
+.circle-up {
+  background: #fff;
+  width: 35px;
+  height: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 49.5%;
+  text-align: center;
+  border-radius: 50%/100%;
+  background-clip: padding-box;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+.circle-up.black {
+  background: #000;
+}
+
+.circle-up a {
+  padding: 0px 13px;
+  color: #000;
+  text-align: center;
+}
+
 #the-cantina .inner {
   width: 700px;
   margin: 0 auto;
@@ -1360,6 +1390,20 @@ ul#client-list li img.desaturate {
   background: url(/img/quote-right.png) no-repeat 0px 0px;
   height: 62px;
   width: 75px;
+}
+
+.twitter_text .inner h4.user {
+  margin: 25px 0;
+}
+
+.twitter_text .inner h4.user a {
+  padding: 6px 8px;
+  color: white;
+  font-weight: 600;
+}
+
+.twitter_text .inner h4.user a:hover {
+  border: 2px solid #fff;
 }
 
 #speak-up {
@@ -1462,6 +1506,7 @@ ul#client-list li img.desaturate {
   }
 
   #clientele ul {
+    margin: 0;
     padding: 0;
   }
 
@@ -2052,6 +2097,30 @@ html, body {
 
   .twitter_text .inner .quote-right {
     float: right;
+  }
+
+  #next-area {
+    margin-bottom: 20px;
+  }
+
+  .circle {
+    left: 45.5%;
+  }
+
+  #the-cantina h4 hr {
+    width: 83px;
+  }
+
+  #speak-up h4 hr {
+    width: 70px;
+  }
+
+  #terms h4 hr {
+    width: 208px;
+  }
+
+  #terms ol li {
+    text-align: left;
   }
 }
 /* ==========================================================================

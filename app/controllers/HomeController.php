@@ -100,7 +100,9 @@ class HomeController extends BaseController {
 		                            }
 		                            //{$tweet->user->name}
 
-		                  echo "<h2>".' @'."{$tweet->user->screen_name}</h2>";
+		                  echo '<h4 class="user"><a href="https://twitter.com/intent/user?screen_name='."{$tweet->user->screen_name}".'" target="_blank">
+						@'."{$tweet->user->screen_name} ".'					
+						</a></h4>';
 		                  echo '<h2>'.$tweet_text.'<br><br><time class="timeago" datetime="'. $datetime .'"></time></h2>';
 		                  echo '<a class="icon icon_reply" href="https://twitter.com/intent/tweet?in_reply_to='."{$tweet->id}".'" target="_blank"></a> <a class="icon icon_retweet" href="https://twitter.com/intent/retweet?tweet_id='."{$tweet->id}".'" target="_blank"></a> <a class="icon icon_star" href="https://twitter.com/intent/favorite?tweet_id='."{$tweet->id}".'" target="_blank"></a>';
 		                  echo '</strong>';
@@ -109,10 +111,6 @@ class HomeController extends BaseController {
 		                   endforeach; 
 		                endif;
 		                echo' </div>
-						<div class="twitter-info">
-						<a href="https://twitter.com/intent/user?screen_name='."{$tweet->user->screen_name}".'" target="_blank">					
-						</a>
-						</div>
 				</article> ';
 		}
 
