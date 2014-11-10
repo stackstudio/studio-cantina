@@ -180,6 +180,7 @@ ul#client-list li img.desaturate{
 	background: url(/img/quote-left.png) no-repeat 0px 0px;
 	height: 62px;
 	width: 75px;
+	background-size: contain;
 }
 .twitter_text .inner .quote-right{
 	position: absolute;
@@ -187,6 +188,7 @@ ul#client-list li img.desaturate{
 	background: url(/img/quote-right.png) no-repeat 0px 0px;
 	height: 62px;
 	width: 75px;
+	background-size: contain;
 }
 .twitter_text .inner h4.user{
 	margin: 25px 0;
