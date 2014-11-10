@@ -981,44 +981,6 @@ textarea {
 /* ==========================================================================
    Footer
    ========================================================================== */
-@media (max-width: 1600px) {
-  .container {
-    max-width: 1160px;
-  }
-}
-@media (max-width: 980px) {
-  .container {
-    max-width: 980px;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    max-width: 780px;
-  }
-}
-@media (max-width: 480px) {
-  .container {
-    max-width: 480px;
-  }
-
-  #logo {
-    width: 80%;
-    margin-top: -60px;
-  }
-
-  ul#the-anchors {
-    padding: 0;
-  }
-
-  #the-cantina p {
-    padding: 0 5%;
-  }
-
-  section#the-cantina article {
-    height: 85%;
-    overflow: scroll;
-  }
-}
 /* ==========================================================================
    Menus
    ========================================================================== */
@@ -1457,6 +1419,44 @@ ul#client-list li img.desaturate {
   padding: 20px 0;
 }
 
+@media (max-width: 1600px) {
+  .container {
+    max-width: 1160px;
+  }
+}
+@media (max-width: 980px) {
+  .container {
+    max-width: 980px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 780px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+
+  #logo {
+    width: 80%;
+    margin-top: -60px;
+  }
+
+  ul#the-anchors {
+    padding: 0;
+  }
+
+  #the-cantina p {
+    padding: 0 5%;
+  }
+
+  section#the-cantina article {
+    height: 85%;
+    overflow: scroll;
+  }
+}
 /* ===========================================================
  * pagepiling.js 0.0.1 (Beta)
  *

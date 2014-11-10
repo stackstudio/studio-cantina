@@ -19,12 +19,13 @@ Version: 1.1
 // Layout
 @import "header";
 @import "footer";
-@import "sizes";
 
 // Menus, Page and Post styles
 @import "menus";
 
 @import "layout";
+
+@import "sizes";
 
 // Plugin styles here
 @import "plugins/pilling.scss";
