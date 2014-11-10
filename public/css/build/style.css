@@ -1458,6 +1458,14 @@ ul#client-list li img.desaturate {
     height: 85%;
     overflow: scroll;
   }
+
+  #clientele ul {
+    padding: 0;
+  }
+
+  #clientele ul li.logo {
+    padding: 0px;
+  }
 }
 /* ===========================================================
  * pagepiling.js 0.0.1 (Beta)

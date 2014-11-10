@@ -36,7 +36,7 @@ welcoming projects small or large from website or mobile app design and developm
 				<li class="col-1-3 logo hidden logo-animate delay01 fadeIn">{{ HTML::image('/img/clientele_jc_logo.png', 'jimmy choo logo') }}</li>
 				<li class="col-1-3 logo hidden logo-animate delay02 fadeIn">{{ HTML::image('/img/clientele_mh_logo.png', 'moet hennessy logo') }}</li>
 				<li class="col-1-3 logo hidden logo-animate delay03 fadeIn">{{ HTML::image('/img/clientele_jackw_logo.png', 'jack wills logo') }}</li>
-				<li class="col-1-3 logo hidden logo-animate delay04 fadeIn">{{ HTML::image('/img/clientele_m-is_logo.png', 'm-is logo') }}</li>
+				<!-- <li class="col-1-3 logo hidden logo-animate delay04 fadeIn">{{ HTML::image('/img/clientele_m-is_logo.png', 'm-is logo') }}</li> -->
 				<li class="col-1-3 logo hidden logo-animate delay05 fadeIn">{{ HTML::image('/img/clientele_habitat_logo.png', 'habitat logo') }}</li>
 				<li class="col-1-3 logo hidden logo-animate delay06 fadeIn">{{ HTML::image('/img/clientele_dmail_logo.png', 'daily mail logo') }}</li>
 			</ul>
