@@ -22,5 +22,19 @@
 	.container {
 		max-width: $pageWidth;
 	}
+	#logo{
+		width: 80%;
+		margin-top: -60px;
+	}
+	ul#the-anchors{
+		padding: 0;
+	}
+	#the-cantina p{
+		padding: 0 5%;
+	}
+	section#the-cantina article{
+		height: 85%;
+		overflow: scroll;
+	}
 
 }
