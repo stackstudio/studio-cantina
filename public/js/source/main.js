@@ -57,7 +57,7 @@
 			    sectionsColor: ['white','#000000', 'white', '#000000', 'white'],
 			    navigation: false,
 			    menu: '#the-anchors',
-			    normalScrollElements: 1,
+			    normalScrollElements: '#terms, #the-cantina',
 		        normalScrollElementTouchThreshold: 0,
 		        touchSensitivity: 0,
 			    afterLoad: function(anchorLink, index){
