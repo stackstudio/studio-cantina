@@ -76,7 +76,7 @@
 		            if(index == 3){
 		                $.each( $('#clientele .logo') , function () {
 		                	// $(this).addClass('hidden');
-		                	alert("leaving to section 3!");
+		                	
 		                });
 		            }
 		        }

@@ -189,10 +189,12 @@ ul#client-list li img.desaturate{
 #terms{
 	text-align: center;
 	overflow: auto;
+	height: 75%;
 }
 
 #terms h4{
 	font-weight: 600;
+	text-transform: uppercase;
 }
 #terms h4 hr{
 	width: 142px;
