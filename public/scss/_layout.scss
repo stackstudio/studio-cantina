@@ -30,15 +30,17 @@
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 40px;
+	min-width: 93px;
 }
 .navigation-main ul li a{
 	text-decoration: none;
 	color: #000;
 	font-weight: 600;
 	padding: 5px 8px;
+	font-size: 0.9em;
 }
 .navigation-main ul li a:hover{
-	border: solid 2px #000;
+	border: solid 1px #000;
 }
 
 #the-cantina{
@@ -137,7 +139,7 @@
 	font-weight: 600;
 }
 #the-cantina h4 hr{
-	width: 73px;
+	width: 75px;
 	border-top: solid 2px #fff;
 	text-align: center;
 	margin: 9px auto;
@@ -173,6 +175,10 @@ ul#client-list li img.desaturate{
 .twitter_text h2{
 	color: white;
 	font-weight: 600;
+	font-size: 1.4em;
+}
+.twitter_text h2 .timeago{
+	font-weight: 100;
 }
 .twitter_text .inner .quote-left{
 	position: absolute;
@@ -205,26 +211,58 @@ ul#client-list li img.desaturate{
 #speak-up{
 	text-align: center;
 }
+
+#speak-up footer{
+	margin-top: 50px;
+}
+
 #speak-up h4,
 #speak-up h5{
 	font-weight: 600;
 }
 #speak-up h4 hr{
-	width: 61px;
+	width: 65px;
 	border-top: solid 2px #000;
 	text-align: center;
 	margin: 9px auto;
 }
-
+#speak-up h5{
+	font-size: 0.7em;
+	min-width: 130px;
+}
+#speak-up h4 a{
+	text-decoration: none;
+	padding: 5px 9px 8px 9px;
+	line-height: 3em;
+}
+#speak-up h4 a:hover{
+	border: 1px solid #000;
+}
 #speak-up h5 a{
 	text-decoration: none;
 	padding: 5px 9px 8px 9px;
 	line-height: 3em;
 }
 #speak-up h5 a:hover{
-	border: 2px solid #000;
+	border: 1px solid #000;
 }
 
+
+#word-up h4#word{
+	position: absolute;
+	bottom: 60px;
+	font-weight: 600;
+	display: inline-block;
+	left: 46.7%;
+	min-width: 136px;
+}
+#word-up h4#word a{
+	color: white;
+	padding: 5px 9px 8px 9px;
+}
+#word-up h4#word a:hover{
+	border: solid 1px white;
+}
 
 
 
@@ -239,7 +277,7 @@ ul#client-list li img.desaturate{
 	text-transform: uppercase;
 }
 #terms h4 hr{
-	width: 142px;
+	width: 178px;
 	border-top: solid 2px #000;
 	text-align: center;
 	margin: 9px auto;
@@ -251,10 +289,12 @@ ul#client-list li img.desaturate{
 	line-height: 3em;
 }
 #terms a:hover{
-	border: 2px solid #000;
+	border: 1px solid #000;
 }
 #terms ol li{
 	text-align: justify;
 	padding: 20px 0;
 }
+
+
 

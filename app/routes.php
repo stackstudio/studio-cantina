@@ -13,3 +13,6 @@
 
 // Find homepage c'mon
 Route::get('/', 'HomeController@index');
+
+
+Route::get('/terms', 'HomeController@terms');

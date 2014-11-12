@@ -52,41 +52,45 @@
 		},
 		initPiling: function() {
 
-			$('#pages').pagepiling({
-			    anchors: ['the-top','the-cantina', 'clientele', 'word-up', 'speak-up', 'terms-and-conditions'],
-			    sectionsColor: ['white','#000000', 'white', '#000000', 'white'],
-			    navigation: false,
-			    menu: '#the-anchors',
-			    normalScrollElements: '#the-cantina, #clientele, #terms-and-conditions',
-		        normalScrollElementTouchThreshold: 8,
-		        touchSensitivity: 1,
-			    afterLoad: function(anchorLink, index){
-		            //using anchorLink
-		            if(anchorLink == 'clientele'){
-		                $.each( $('#clientele .logo') , function () {
-		                	$(this).removeClass('hidden');
-		                	$('#next-area').removeClass('hidden');
-		                });
-		            } else {
-		            	$.each( $('#clientele .logo') , function () {
-		                	$(this).addClass('hidden');
-		                	$('#next-area').addClass('hidden');
-		                });
-		            }
-		        },
-		        onLeave: function(index, nextIndex, direction){
-		        	//using anchorLink
-		            if(index == 3){
-		                $.each( $('#clientele .logo') , function () {
-		                	// $(this).addClass('hidden');
-		                	
-		                });
-		            }
-		        }
-			});
-			$('#cantina-section').on('click', function() {
-				$.fn.pagePiling.moveTo('the-top');
-			});
+			if ($('#pages').length){
+
+				$('#pages').pagepiling({
+				    anchors: ['the-top','the-cantina', 'clientele', 'word-up', 'speak-up', 'terms-and-conditions'],
+				    sectionsColor: ['white','#000000', 'white', '#000000', 'white'],
+				    navigation: false,
+				    menu: '#the-anchors',
+				    normalScrollElements: '#the-cantina, #clientele, #terms-and-conditions',
+			        normalScrollElementTouchThreshold: 8,
+			        touchSensitivity: 1,
+				    afterLoad: function(anchorLink, index){
+			            //using anchorLink
+			            if(anchorLink == 'clientele'){
+			                $.each( $('#clientele .logo') , function () {
+			                	$(this).removeClass('hidden');
+			                	$('#next-area').removeClass('hidden');
+			                });
+			            } else {
+			            	$.each( $('#clientele .logo') , function () {
+			                	$(this).addClass('hidden');
+			                	$('#next-area').addClass('hidden');
+			                });
+			            }
+			        },
+			        onLeave: function(index, nextIndex, direction){
+			        	//using anchorLink
+			            if(index == 3){
+			                $.each( $('#clientele .logo') , function () {
+			                	// $(this).addClass('hidden');
+			                	
+			                });
+			            }
+			        }
+				});
+				$('#cantina-section').on('click', function() {
+					$.fn.pagePiling.moveTo('the-top');
+				});
+
+			}
 
 		},
 

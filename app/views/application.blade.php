@@ -11,6 +11,7 @@
     <!--  Mobile Viewport Fix -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="shortcut icon" href="{{ URL::asset('favicon.ico') }}">
+    <link rel="canonical" href="">
 
     <!-- iOS favicons. -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{{ asset('assets/ico/apple-touch-icon-144-precomposed.png') }}}">

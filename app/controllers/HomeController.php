@@ -115,5 +115,9 @@ class HomeController extends BaseController {
 		}
 
 	}
+	public function terms()
+	{
+		$this->layout->content = View::make('home.terms');
+	}
 
 }
