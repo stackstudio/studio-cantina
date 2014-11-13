@@ -179,6 +179,7 @@ ul#client-list li img.desaturate{
 }
 .twitter_text h2 .timeago{
 	font-weight: 100;
+	font-size: 0.7em;
 }
 .twitter_text .inner .quote-left{
 	position: absolute;
@@ -198,6 +199,7 @@ ul#client-list li img.desaturate{
 }
 .twitter_text .inner h4.user{
 	margin: 25px 0;
+	display: none;
 }
 .twitter_text .inner h4.user a{
 	padding: 6px 8px;
@@ -250,10 +252,10 @@ ul#client-list li img.desaturate{
 
 #word-up h4#word{
 	position: absolute;
-	bottom: 60px;
+	bottom: 13%;
 	font-weight: 600;
 	display: inline-block;
-	left: 46.7%;
+	left: 46.4%;
 	min-width: 136px;
 }
 #word-up h4#word a{

@@ -44,7 +44,7 @@ welcoming projects small or large from website or mobile app design and developm
 				<p>
 					to manage the privacy of our clientele all portfolio and project samples are only available by request
 				</p>
-				<h4><a href="mailTo:studio@studiocantina.com">request portfolio</a></h4>
+				<h4><a href="mailTo:studio@studiocantina.com">download portfolio</a></h4>
 			</div>
 		</article>
 		<div class="circle black" id="clientele-section"><a href="#word-up"></a></div>
@@ -66,7 +66,7 @@ welcoming projects small or large from website or mobile app design and developm
 					camden, london<br><br>
 					in the studio<br>
 					+44 (0) 207 482 1905<br><br>on the move<br>
-					+44 (0) 7813 931 158<br><br><h4><a href="mailTo:studio@studiocantina.com">email the studio</a></h4>
+					+44 (0) 7813 931 158<br><br><h4><a href="mailTo:studio@studiocantina.com">email</a></h4>
 				</p>
 			</div>
 			<footer>
