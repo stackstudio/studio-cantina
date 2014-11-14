@@ -1596,6 +1596,21 @@ ul#client-list li img.desaturate {
   #speak-up h4 {
     margin: 0;
   }
+
+  #speak-up h5 {
+    min-width: 0px;
+    padding: 0;
+  }
+
+  #speak-up footer {
+    position: absolute;
+    bottom: 1%;
+    font-weight: 600;
+    display: inline-block;
+    left: 0;
+    width: 100%;
+    min-width: 0;
+  }
 }
 /* ===========================================================
  * pagepiling.js 0.0.1 (Beta)

@@ -62,7 +62,20 @@
 		margin: 0;
 	}
 	#speak-up .email{
-		
+
+	}
+	#speak-up h5{
+		min-width: 0px;
+		padding: 0;
+	}
+	#speak-up footer{
+		position: absolute;
+		bottom: 1%;
+		font-weight: 600;
+		display: inline-block;
+		left: 0;
+		width: 100%;
+		min-width: 0;
 	}
 
 
