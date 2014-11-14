@@ -37,16 +37,49 @@
 	}
 
 	#the-cantina h4 hr{
-	width: 83px;
+		width: 83px;
 	}
 	#speak-up h4 hr{
-	width: 70px;
+		width: 70px;
 	}
 	#terms h4 hr{
-	width: 208px;
+		width: 208px;
 	}
 	#terms ol li{
-	text-align: left;
+		text-align: left;
+	}
+
+	.circle-up{
+		left: 45.5%;
+	}
+	#word-up h4#word{
+		bottom: 7%;
+		left: 28.4%;
+	}
+	.twitter_text h2{
+		padding-top: 15px;
+	}
+	#speak-up .container{
+		padding-top: 10px;
+	}
+	#speak-up h4{
+		margin: 0;
+	}
+	#speak-up .email{
+
+	}
+	#speak-up h5{
+		min-width: 0px;
+		padding: 0;
+	}
+	#speak-up footer{
+		position: absolute;
+		bottom: 1%;
+		font-weight: 600;
+		display: inline-block;
+		left: 0;
+		width: 100%;
+		min-width: 0;
 	}
 
 }

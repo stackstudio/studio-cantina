@@ -1575,42 +1575,6 @@ ul#client-list li img.desaturate {
   #clientele ul li.logo {
     padding: 0px;
   }
-
-  .circle-up {
-    left: 45.5%;
-  }
-
-  #word-up h4#word {
-    bottom: 7%;
-    left: 28.4%;
-  }
-
-  .twitter_text h2 {
-    padding-top: 15px;
-  }
-
-  #speak-up .container {
-    padding-top: 10px;
-  }
-
-  #speak-up h4 {
-    margin: 0;
-  }
-
-  #speak-up h5 {
-    min-width: 0px;
-    padding: 0;
-  }
-
-  #speak-up footer {
-    position: absolute;
-    bottom: 1%;
-    font-weight: 600;
-    display: inline-block;
-    left: 0;
-    width: 100%;
-    min-width: 0;
-  }
 }
 /* ===========================================================
  * pagepiling.js 0.0.1 (Beta)
@@ -2219,6 +2183,42 @@ html, body {
 
   #terms ol li {
     text-align: left;
+  }
+
+  .circle-up {
+    left: 45.5%;
+  }
+
+  #word-up h4#word {
+    bottom: 7%;
+    left: 28.4%;
+  }
+
+  .twitter_text h2 {
+    padding-top: 15px;
+  }
+
+  #speak-up .container {
+    padding-top: 10px;
+  }
+
+  #speak-up h4 {
+    margin: 0;
+  }
+
+  #speak-up h5 {
+    min-width: 0px;
+    padding: 0;
+  }
+
+  #speak-up footer {
+    position: absolute;
+    bottom: 1%;
+    font-weight: 600;
+    display: inline-block;
+    left: 0;
+    width: 100%;
+    min-width: 0;
   }
 }
 /* ==========================================================================
