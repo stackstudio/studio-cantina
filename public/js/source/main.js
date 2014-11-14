@@ -61,7 +61,7 @@
 				    menu: '#the-anchors',
 				    normalScrollElements: '#the-cantina, #clientele, #terms-and-conditions',
 			        normalScrollElementTouchThreshold: 8,
-			        touchSensitivity: 1,
+			        touchSensitivity: 5,
 				    afterLoad: function(anchorLink, index){
 			            //using anchorLink
 			            if(anchorLink == 'clientele'){

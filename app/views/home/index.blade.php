@@ -66,14 +66,14 @@ welcoming projects small or large from website or mobile app design and developm
 					camden, london<br><br>
 					in the studio<br>
 					+44 (0) 207 482 1905<br><br>on the move<br>
-					+44 (0) 7813 931 158<br><br><h4><a href="mailTo:studio@studiocantina.com">email</a></h4>
+					+44 (0) 7813 931 158<br><br><h4><a class="email" href="mailTo:studio@studiocantina.com">email</a></h4>
 				</p>
 			</div>
-			<footer>
-				<h5 class="col-2-4"><a href="/terms">terms &amp; conditions</a></h5>
-				<h5 class="col-2-4">&copy;<?php echo date( "Y" ); ?> Studio Cantina Limited</h5>
-			</footer>
 		</article>
+		<footer>
+			<h5 class="col-2-4"><a href="/terms">terms &amp; conditions</a></h5>
+			<h5 class="col-2-4">&copy;<?php echo date( "Y" ); ?> Studio Cantina Limited</h5>
+		</footer>
 	</section>
 	<section class="section" id="terms-and-conditions">
 		<article id="terms" class="container">

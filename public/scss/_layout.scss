@@ -56,14 +56,16 @@
 #clientele h4{
 	padding:0;
 	margin: 0;
+	font-weight: 600;
 }
 #clientele h4 a{
 	text-decoration: none;
 	padding: 3px 7px 7px;
 	line-height: 3em;
+	font-size: 0.9em;
 }
 #clientele h4 a:hover{
-	border: 2px solid #000;
+	border: 1px solid #000;
 }
 .triangle{
 	display: inline-block;
@@ -172,6 +174,9 @@ ul#client-list li img.desaturate{
 	padding: 5% 20%;
 	position: relative;
 }
+.twitter_text{
+	padding-right: 0px;
+}
 .twitter_text h2{
 	color: white;
 	font-weight: 600;
@@ -215,7 +220,14 @@ ul#client-list li img.desaturate{
 }
 
 #speak-up footer{
-	margin-top: 50px;
+	/*margin-top: 50px;*/
+
+	position: absolute;
+	bottom: 13%;
+	font-weight: 600;
+	display: inline-block;
+	left: 41.4%;
+	min-width: 136px;
 }
 
 #speak-up h4,
@@ -236,6 +248,7 @@ ul#client-list li img.desaturate{
 	text-decoration: none;
 	padding: 5px 9px 8px 9px;
 	line-height: 3em;
+	font-size: 0.9em;
 }
 #speak-up h4 a:hover{
 	border: 1px solid #000;
@@ -261,6 +274,7 @@ ul#client-list li img.desaturate{
 #word-up h4#word a{
 	color: white;
 	padding: 5px 9px 8px 9px;
+	font-size: 0.9em;
 }
 #word-up h4#word a:hover{
 	border: solid 1px white;
