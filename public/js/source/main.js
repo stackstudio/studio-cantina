@@ -52,6 +52,19 @@
 		},
 		initPiling: function() {
 
+		var $window = $(window);
+		var w = $window.width();
+
+  		if (w <= 600) {
+
+  			$('body,html').css('overflow','scroll');
+  			$.each( $('#clientele .logo') , function () {
+            	$(this).removeClass('hidden');
+            	$('#next-area').removeClass('hidden');
+            });
+
+		} else {
+
 			if ($('#pages').length){
 
 				$('#pages').pagepiling({
@@ -91,6 +104,8 @@
 				});
 
 			}
+
+		}
 
 		},
 

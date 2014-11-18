@@ -2130,6 +2130,10 @@ html, body {
     position: relative;
   }
 
+  .header {
+    padding-top: 10%;
+  }
+
   .site-content {
     padding-top: 0px;
   }
@@ -2165,8 +2169,8 @@ html, body {
     margin-bottom: 20px;
   }
 
-  .circle {
-    left: 45.5%;
+  .circle, .circle.black {
+    display: none;
   }
 
   #the-cantina h4 hr {
@@ -2175,6 +2179,10 @@ html, body {
 
   #speak-up h4 hr {
     width: 70px;
+  }
+
+  #terms-and-conditions {
+    display: none;
   }
 
   #terms h4 hr {
@@ -2190,12 +2198,17 @@ html, body {
   }
 
   #word-up h4#word {
-    bottom: 7%;
-    left: 28.4%;
+    position: relative;
+    width: 100%;
+    left: 0;
   }
 
   .twitter_text h2 {
     padding-top: 15px;
+  }
+
+  #word-up {
+    padding: 20px 0;
   }
 
   #speak-up .container {
@@ -2212,7 +2225,7 @@ html, body {
   }
 
   #speak-up footer {
-    position: absolute;
+    position: relative;
     bottom: 1%;
     font-weight: 600;
     display: inline-block;
