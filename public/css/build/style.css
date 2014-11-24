@@ -1451,7 +1451,7 @@ ul#client-list li img.desaturate {
 
 #speak-up h5 {
   font-size: 0.7em;
-  min-width: 130px;
+  min-width: 135px;
 }
 
 #speak-up h4 a {
@@ -1480,7 +1480,7 @@ ul#client-list li img.desaturate {
   bottom: 13%;
   font-weight: 600;
   display: inline-block;
-  left: 46.4%;
+  left: 46.7%;
   min-width: 136px;
 }
 
@@ -1496,8 +1496,6 @@ ul#client-list li img.desaturate {
 
 #terms {
   text-align: center;
-  overflow: auto;
-  height: 75%;
 }
 
 #terms h4 {
@@ -1524,7 +1522,14 @@ ul#client-list li img.desaturate {
 
 #terms ol li {
   text-align: justify;
-  padding: 20px 0;
+  padding: 0px 0;
+  font-size: .9em;
+  margin: 0;
+}
+
+#terms-conditions #terms ol li p,
+#terms-conditions #terms ol li ul li {
+  font-size: 0.9em;
 }
 
 @media (max-width: 1600px) {
