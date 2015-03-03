@@ -264,12 +264,9 @@ ul#client-list li img.desaturate{
 
 
 #word-up h4#word{
-	position: absolute;
-	bottom: 13%;
 	font-weight: 600;
-	display: inline-block;
-	left: 46.7%;
 	min-width: 136px;
+	margin-top: 5%;
 }
 #word-up h4#word a{
 	color: white;
@@ -291,7 +288,7 @@ ul#client-list li img.desaturate{
 	text-transform: uppercase;
 }
 #terms h4 hr{
-	width: 178px;
+	width: 175px;
 	border-top: solid 2px #000;
 	text-align: center;
 	margin: 9px auto;
@@ -314,6 +311,7 @@ ul#client-list li img.desaturate{
 #terms-conditions #terms ol li p,
 #terms-conditions #terms ol li ul li{
 	font-size: 0.9em;
+	line-height: 2.2em;
 }
 
 

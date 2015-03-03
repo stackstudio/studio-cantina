@@ -615,24 +615,38 @@ body p a {
   text-decoration: underline;
 }
 
-a {
-  -webkit-transition-property: inherit;
-  transition-property: inherit;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
+/*a{
+	-webkit-transition-property: inherit;
+	-moz-transition-property: inherit;
+	-ms-transition-property: inherit;
+	-o-transition-property: inherit;
+	transition-property: inherit;
 
-a:hover {
-  -webkit-transition-property: inherit;
-  transition-property: inherit;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
 
+	-webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+}
+a:hover{
+	-webkit-transition-property: inherit;
+	-moz-transition-property: inherit;
+	-ms-transition-property: inherit;
+	-o-transition-property: inherit;
+	transition-property: inherit;
+
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+
+	-webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+}*/
 span {
   -webkit-transition-property: inherit;
   transition-property: inherit;
@@ -823,12 +837,12 @@ html {
  * Customize the background color to match your design.
  */
 ::-moz-selection {
-  background: orange;
+  background: #555;
   text-shadow: none;
 }
 
 ::selection {
-  background: orange;
+  background: #555;
   text-shadow: none;
 }
 
@@ -1476,12 +1490,9 @@ ul#client-list li img.desaturate {
 }
 
 #word-up h4#word {
-  position: absolute;
-  bottom: 13%;
   font-weight: 600;
-  display: inline-block;
-  left: 46.7%;
   min-width: 136px;
+  margin-top: 5%;
 }
 
 #word-up h4#word a {
@@ -1504,7 +1515,7 @@ ul#client-list li img.desaturate {
 }
 
 #terms h4 hr {
-  width: 178px;
+  width: 175px;
   border-top: solid 2px #000;
   text-align: center;
   margin: 9px auto;
@@ -1530,6 +1541,7 @@ ul#client-list li img.desaturate {
 #terms-conditions #terms ol li p,
 #terms-conditions #terms ol li ul li {
   font-size: 0.9em;
+  line-height: 2.2em;
 }
 
 @media (max-width: 1600px) {
