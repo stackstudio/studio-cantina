@@ -49,7 +49,7 @@ from fashion to fizz to film, we have worked on projects for the luxury, retail,
 					worldwide or down the street. some of the clients we have worked with.<br>
 download a sample of the latest projects below. <a href="mailTo:studio@studiocantina.com">email</a> for more details.
 				</p>
-				<h4><a href="/portfolio.pdf">download portfolio</a></h4>
+				<h4><a href="{{ URL::asset('portfolio-sc.pdf') }}">download portfolio</a></h4>
 			</div>
 		</article>
 		<div class="circle black" id="clientele-section"><a href="#word-up"></a></div>
